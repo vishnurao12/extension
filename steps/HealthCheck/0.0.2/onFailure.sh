@@ -12,4 +12,4 @@ sendFailureSlackNotification() {
   fi
 }
 
-execute_command sendSlackNotification
+execute_command sendFailureSlackNotification
