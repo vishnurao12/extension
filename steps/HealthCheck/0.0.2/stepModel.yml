@@ -1,6 +1,6 @@
 configuration:
   healthCheckUrl:
-    type: string
+    type: url
   notifyOnSuccess:
     type: boolean
   notifyOnFailure:
