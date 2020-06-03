@@ -6,9 +6,11 @@ sendFailureSlackNotification() {
     if [ -z "$notifyOnFailure" ]; then
       notifyOnFailure=true
     fi
-    if [ "$notifyOnFailure" == "true" ] && ! $success; then
+    if [ "$notifyOnFailure" == "true" ]; then
       echo "Sending failure notification"
       send_notification "$slackIntegrationName" --text "Health check $url failed"
+    else
+      echo "notifyOnFailure is set to false"
     fi
   else
     echo "Slack integration is not added, skipping notification"
