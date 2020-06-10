@@ -5,3 +5,7 @@ configuration:
     type: integration
     validate:
       isIntegrationType: Slack
+  integration2:
+    type: integration
+    validate:
+      isIntegrationType: Slack
