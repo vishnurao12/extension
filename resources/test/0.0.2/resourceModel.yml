@@ -9,3 +9,6 @@ configuration:
     type: int
   bar:
     type: boolean
+  koo:
+    type: string
+    immutable: true
