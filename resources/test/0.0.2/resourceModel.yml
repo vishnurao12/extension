@@ -1,0 +1,11 @@
+configuration:
+  test:
+    type: string
+  slack:
+    type: integration
+    validate:
+      isIntegrationType: Slack
+  foo:
+    type: int
+  bar:
+    type: boolean
