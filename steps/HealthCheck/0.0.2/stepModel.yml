@@ -5,3 +5,5 @@ configuration:
     type: boolean
   notifyOnFailure:
     type: boolean
+  stuff:
+    type: string[]
