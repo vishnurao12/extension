@@ -1,5 +1,5 @@
 configuration:
-  bood:
+  bdood:
     type: string
   test:
     type: string
