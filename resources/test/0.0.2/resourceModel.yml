@@ -1,4 +1,6 @@
 configuration:
+  boo:
+    type: string
   test:
     type: string
   slack:
