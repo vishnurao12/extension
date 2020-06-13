@@ -1,6 +1,8 @@
 configuration:
   foo1:
     type: String
+    validate:
+      isRegex: "lol("
   foo2:
     type: Int
   foo3:
