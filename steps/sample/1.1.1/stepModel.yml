@@ -61,7 +61,7 @@ configuration:
     type: foo[]
 
 userDefinedDataType:
-  - name: foo
+  - type: foo
     configuration:
       foo1:
         type: String
