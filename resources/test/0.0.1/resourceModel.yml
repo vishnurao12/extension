@@ -1,7 +1,7 @@
 configuration:
   test:
-    type: string
+    type: String
   slack:
-    type: integration
+    type: Integration
     validate:
       isIntegrationType: Slack

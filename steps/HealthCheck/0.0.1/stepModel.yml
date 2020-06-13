@@ -1,3 +1,3 @@
 configuration:
   healthCheckUrl:
-    type: string
+    type: String

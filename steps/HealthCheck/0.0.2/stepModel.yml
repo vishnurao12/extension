@@ -1,9 +1,9 @@
 configuration:
   healthCheckUrl:
-    type: url
+    type: Url
   notifyOnSuccess:
-    type: boolean
+    type: Boolean
   notifyOnFailure:
-    type: boolean
+    type: Boolean
   stuff:
-    type: string[]
+    type: String[]

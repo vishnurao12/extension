@@ -1,16 +1,16 @@
 configuration:
   bdood:
-    type: string
+    type: String
   test:
-    type: string
+    type: String
   slack:
-    type: integration
+    type: Integration
     validate:
       isIntegrationType: Slack
   foo:
-    type: int
+    type: Int
   bar:
-    type: boolean
+    type: Boolean
   koo:
-    type: string
+    type: String
     immutable: true
