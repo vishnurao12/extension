@@ -1,0 +1,121 @@
+configuration:
+  foo1:
+    type: String
+  foo2:
+    type: Int
+  foo3:
+    type: Boolean
+  foo4:
+    type: Url
+  foo5:
+    type: Email
+  foo6:
+    type: IP
+  foo7:
+    type: IPv4
+  foo8:
+    type: IPv6
+  foo9:
+    type: Date
+  foo10:
+    type: Alpha
+  foo11:
+    type: Alphanumeric
+  foo12:
+    type: Numeric
+  foo13:
+    type: Float
+  foo14:
+    type: UUID
+  foo15:
+    type: String[]
+  foo16:
+    type: Int[]
+  foo17:
+    type: Boolean[]
+  foo18:
+    type: Url[]
+  foo19:
+    type: Email[]
+  foo20:
+    type: IP[]
+  foo21:
+    type: IPv4[]
+  foo22:
+    type: IPv6[]
+  foo23:
+    type: Date[]
+  foo24:
+    type: Alpha[]
+  foo25:
+    type: Alphanumeric[]
+  foo26:
+    type: Numeric[]
+  foo27:
+    type: Float[]
+  foo28:
+    type: UUID[]
+  foo29:
+    type: foo
+  foo30:
+    type: foo[]
+
+userDefinedDataType:
+  - name: foo
+    configuration:
+      foo1:
+        type: String
+      foo2:
+        type: Int
+      foo3:
+        type: Boolean
+      foo4:
+        type: Url
+      foo5:
+        type: Email
+      foo6:
+        type: IP
+      foo7:
+        type: IPv4
+      foo8:
+        type: IPv6
+      foo9:
+        type: Date
+      foo10:
+        type: Alpha
+      foo11:
+        type: Alphanumeric
+      foo12:
+        type: Numeric
+      foo13:
+        type: Float
+      foo14:
+        type: UUID
+      foo15:
+        type: String[]
+      foo16:
+        type: Int[]
+      foo17:
+        type: Boolean[]
+      foo18:
+        type: Url[]
+      foo19:
+        type: Email[]
+      foo20:
+        type: IP[]
+      foo21:
+        type: IPv4[]
+      foo22:
+        type: IPv6[]
+      foo23:
+        type: Date[]
+      foo24:
+        type: Alpha[]
+      foo25:
+        type: Alphanumeric[]
+      foo26:
+        type: Numeric[]
+      foo27:
+        type: Float[]
+      foo28:
+        type: UUID[]
