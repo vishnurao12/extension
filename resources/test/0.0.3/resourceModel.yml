@@ -8,7 +8,7 @@ configuration:
   slack:
     type: Integration
     validate:
-      isIntegrationType: sSlack
+      isIntegrationType: Slack
   foo:
     type: Int
   bar:
