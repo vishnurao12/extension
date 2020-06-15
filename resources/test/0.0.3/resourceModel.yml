@@ -11,8 +11,6 @@ configuration:
       isIntegrationType: Slack
   foo:
     type: Int
-    validate:
-      max: 10
   bar:
     type: Boolean
   koo:
