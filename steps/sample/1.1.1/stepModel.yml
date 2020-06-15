@@ -3,6 +3,7 @@ configuration:
     type: String
     validate:
       isRegex: "lol"
+      foo: bar
   foo2:
     type: Int
   foo3:
