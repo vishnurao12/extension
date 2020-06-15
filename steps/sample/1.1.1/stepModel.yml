@@ -33,6 +33,8 @@ configuration:
     type: String[]
   foo16:
     type: Int[]
+    validate:
+      isRegex: "lol"
   foo17:
     type: Boolean[]
   foo18:
