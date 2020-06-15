@@ -1,6 +1,6 @@
 sendFailureSlackNotification() {
   local url=$(find_step_configuration_value "healthCheckUrl")
-  local slackIntegrationName=$(get_integration_name --type "slackKey")
+  local slackIntegrationName=$(get_integration_name --type "Slack")
   if [ ! -z "$slackIntegrationName" ]; then
     local notifyOnFailure=$(find_step_configuration_value "notifyOnFailure")
     if [ -z "$notifyOnFailure" ]; then
