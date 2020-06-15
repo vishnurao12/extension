@@ -12,7 +12,7 @@ configuration:
   foo:
     type: Int
     validate:
-      "isRegex": "lol"
+      isRegex: "lol"
   bar:
     type: Boolean
   koo:
