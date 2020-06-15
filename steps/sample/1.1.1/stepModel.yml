@@ -33,8 +33,6 @@ configuration:
     type: String[]
   foo16:
     type: Int[]
-    validate:
-      max: 10
   foo17:
     type: Boolean[]
   foo18:
