@@ -11,6 +11,8 @@ configuration:
       isIntegrationType: Slack
   foo:
     type: Int
+    validate:
+      "isRegex": "lol"
   bar:
     type: Boolean
   koo:
