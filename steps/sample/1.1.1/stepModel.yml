@@ -34,7 +34,7 @@ configuration:
   foo16:
     type: Int[]
     validate:
-      isRegex: "lol"
+      max: 10
   foo17:
     type: Boolean[]
   foo18:
