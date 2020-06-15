@@ -2,8 +2,7 @@ configuration:
   foo1:
     type: String
     validate:
-      isRegex: "lol"
-      foo: bar
+      isRegex: "lol("
   foo2:
     type: Int
   foo3:
