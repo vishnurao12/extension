@@ -72,39 +72,39 @@ configuration:
     type: Float[]
   foov28:
     type: UUID[]
- foov111:
+  foov111:
     type: String
     validate:
       contains: "lol"
- foov112:
+  foov112:
     type: String
     validate:
       equals: "lol"
- foov113:
+  foov113:
     type: String
     validate:
       isLowercase: true
- foov114:
+  foov114:
     type: String
     validate:
       isUppercase: true
- foov115:
+  foov115:
     type: String
     validate:
       len: 5
- foov115:
+  foov115:
     type: String
     validate:
       notContains: "lol"
- foov115:
+  foov115:
     type: String
     validate:
       notEmpty: true
- foov116:
+  foov116:
     type: String
     validate:
       notIn: "notEmpty"
- foov117:
+  foov117:
     type: String
     validate:
       notRegex: "lol"
@@ -120,39 +120,39 @@ configuration:
     type: Int
     validate:
       min: 5   
-foov212:
+  foov212:
     type: string[]
     validate:
       contains: "lol"
- foov212:
+  foov212:
     type: string[]
     validate:
       equals: "lol"
- foov213:
+  foov213:
     type: string[]
     validate:
       isLowercase: "lol"
- foov214:
+  foov214:
     type: string[]
     validate:
       isUppercase: "LOL"
- foov215:
+  foov215:
     type: string[]
     validate:
       len: 5
- foov215:
+  foov215:
     type: string[]
     validate:
       notContains: "lol"
- foov215:
+  foov215:
     type: string[]
     validate:
       notEmpty: "notEmpty"
- foov216:
+  foov216:
     type: string[]
     validate:
       notIn: "notEmpty"
- foov217:
+  foov217:
     type: string[]
     validate:
       notRegex: "lol"
