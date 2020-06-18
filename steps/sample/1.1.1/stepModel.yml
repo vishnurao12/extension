@@ -140,11 +140,11 @@ configuration:
     type: string[]
     validate:
       len: 5
-  foov215:
+  foov21e:
     type: string[]
     validate:
       notContains: "lol"
-  foov215:
+  foov21r:
     type: string[]
     validate:
       notEmpty: "notEmpty"
