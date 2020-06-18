@@ -1,5 +1,5 @@
 configuration:
- foov1:
+  foov1:
     type: String
     validate:
       isRegex: "lol"
