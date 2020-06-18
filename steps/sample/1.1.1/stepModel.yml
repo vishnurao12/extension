@@ -72,87 +72,87 @@ configuration:
     type: Float[]
   foov28:
     type: UUID[]
- foov1.1:
+ foov111:
     type: String
     validate:
       contains: "lol"
- foov1.2:
+ foov112:
     type: String
     validate:
       equals: "lol"
- foov1.3:
+ foov113:
     type: String
     validate:
       isLowercase: true
- foov1.4:
+ foov114:
     type: String
     validate:
       isUppercase: true
- foov1.5:
+ foov115:
     type: String
     validate:
       len: 5
- foov1.5:
+ foov115:
     type: String
     validate:
       notContains: "lol"
- foov1.5:
+ foov115:
     type: String
     validate:
       notEmpty: true
- foov1.6:
+ foov116:
     type: String
     validate:
       notIn: "notEmpty"
- foov1.7:
+ foov117:
     type: String
     validate:
       notRegex: "lol"
-  foov1.8:
+  foov118:
     type: Date
     validate:
       isBefore: "Wed Nov 02 2011 00:00:00 GMT+1000"
-  foov1.9:
+  foov119:
     type: Int
     validate:
       max: 5
-  foov2.0:
+  foov210:
     type: Int
     validate:
       min: 5   
-foov2.2:
+foov212:
     type: string[]
     validate:
       contains: "lol"
- foov2.2:
+ foov212:
     type: string[]
     validate:
       equals: "lol"
- foov2.3:
+ foov213:
     type: string[]
     validate:
       isLowercase: "lol"
- foov2.4:
+ foov214:
     type: string[]
     validate:
       isUppercase: "LOL"
- foov2.5:
+ foov215:
     type: string[]
     validate:
       len: 5
- foov2.5:
+ foov215:
     type: string[]
     validate:
       notContains: "lol"
- foov2.5:
+ foov215:
     type: string[]
     validate:
       notEmpty: "notEmpty"
- foov2.6:
+ foov216:
     type: string[]
     validate:
       notIn: "notEmpty"
- foov2.7:
+ foov217:
     type: string[]
     validate:
       notRegex: "lol"
