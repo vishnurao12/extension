@@ -90,7 +90,7 @@ configuration:
   foov115:
     type: String
     validate:
-      len: [5]
+      len: [5,4]
   foov116:
     type: String
     validate:
