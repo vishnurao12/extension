@@ -92,27 +92,27 @@ configuration:
     type: String
     validate:
       len: 5
-  foov115:
-    type: String
-    validate:
-      notContains: "lol"
-  foov115:
-    type: String
-    validate:
-      notEmpty: true
   foov116:
     type: String
     validate:
-      notIn: "notEmpty"
+      notContains: "lol"
   foov117:
     type: String
     validate:
-      notRegex: "lol"
+      notEmpty: true
   foov118:
+    type: String
+    validate:
+      notIn: "notEmpty"
+  foov119:
+    type: String
+    validate:
+      notRegex: "lol"
+  foov120:
     type: Date
     validate:
       isBefore: "Wed Nov 02 2011 00:00:00 GMT+1000"
-  foov119:
+  foov121:
     type: Int
     validate:
       max: 5
