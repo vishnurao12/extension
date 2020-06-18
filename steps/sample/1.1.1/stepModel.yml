@@ -130,15 +130,15 @@ configuration:
   foov213:
     type: String[]
     validate:
-      isLowercase: "lol"
+      isLowercase: true
   foov214:
     type: String[]
     validate:
-      isUppercase: "LOL"
+      isUppercase: true
   foov215:
     type: String[]
     validate:
-      len: 5
+      len: [5,4]
   foov21e:
     type: String[]
     validate:
@@ -146,11 +146,11 @@ configuration:
   foov21r:
     type: String[]
     validate:
-      notEmpty: "notEmpty"
+      notEmpty: true
   foov216:
     type: String[]
     validate:
-      notIn: "notEmpty"
+      notIn: ["log","print"]
   foov217:
     type: String[]
     validate:
