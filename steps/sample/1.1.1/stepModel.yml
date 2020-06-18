@@ -9,8 +9,7 @@ configuration:
       max: 5
   foov3:
     type: Boolean
-    validate:
-      isRegex: "^(true|false)$"
+
   foov4:
     type: Url
   foov5:
