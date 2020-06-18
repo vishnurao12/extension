@@ -102,7 +102,7 @@ configuration:
   foov118:
     type: String
     validate:
-      notIn: "notEmpty"
+      notIn: ["log","print"]
   foov119:
     type: String
     validate:
