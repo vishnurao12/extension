@@ -1,67 +1,193 @@
 configuration:
-  foo1:
+ foov1:
     type: String
     validate:
       isRegex: "lol"
-  foo2:
+  foov2:
     type: Int
-  foo3:
+    validate:
+      max: 5
+  foov3:
     type: Boolean
-  foo4:
+    validate:
+      isRegex: "^(true|false)$"
+  foov4:
     type: Url
-  foo5:
+    validate:
+      isRegex: "([^\?]+)(\?.*)?"
+  foov5:
     type: Email
-  foo6:
+    validate:
+      isRegex: "(\S+@\S+\.\S+)?"
+  foov6:
     type: IP
-  foo7:
+    validate:
+      isRegex: "^(([0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5])\.){3}([0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5])$"
+  foov7:
     type: IPv4
-  foo8:
+    validate:
+      isRegex: "^(([0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5])\.){3}([0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5])$"
+  foov8:
     type: IPv6
-  foo9:
+    validate:
+      isRegex: "(([0-9a-fA-F]{1,4}:){7,7}[0-9a-fA-F]{1,4}|([0-9a-fA-F]{1,4}:){1,7}:|([0-9a-fA-F]{1,4}:){1,6}:[0-9a-fA-F]{1,4}|([0-9a-fA-F]{1,4}:){1,5}(:[0-9a-fA-F]{1,4}){1,2}|([0-9a-fA-F]{1,4}:){1,4}(:[0-9a-fA-F]{1,4}){1,3}|([0-9a-fA-F]{1,4}:){1,3}(:[0-9a-fA-F]{1,4}){1,4}|([0-9a-fA-F]{1,4}:){1,2}(:[0-9a-fA-F]{1,4}){1,5}|[0-9a-fA-F]{1,4}:((:[0-9a-fA-F]{1,4}){1,6})|:((:[0-9a-fA-F]{1,4}){1,7}|:)|fe80:(:[0-9a-fA-F]{0,4}){0,4}%[0-9a-zA-Z]{1,}|::(ffff(:0{1,4}){0,1}:){0,1}((25[0-5]|(2[0-4]|1{0,1}[0-9]){0,1}[0-9])\.){3,3}(25[0-5]|(2[0-4]|1{0,1}[0-9]){0,1}[0-9])|([0-9a-fA-F]{1,4}:){1,4}:((25[0-5]|(2[0-4]|1{0,1}[0-9]){0,1}[0-9])\.){3,3}(25[0-5]|(2[0-4]|1{0,1}[0-9]){0,1}[0-9]))"
+  foov9:
     type: Date
-  foo10:
+    validate:
+      isAfter: "Wed Nov 02 2011 00:00:00 GMT+1000"
+  foov10:
     type: Alpha
-  foo11:
+    validate:
+      equals: 0.0
+  foov11:
     type: Alphanumeric
-  foo12:
+    validate:
+      max: 5
+  foov12:
     type: Numeric
-  foo13:
+    validate:
+      max: 5
+  foov13:
     type: Float
-  foo14:
+    validate:
+      isRegex: "(^-?\d*(\.\d+)?$)"
+      max: 5.0
+  foov14:
     type: UUID
-  foo15:
+    validate:
+      isRegex: "^((?-i:0x)?[A-Fa-f0-9]{32}| [A-Fa-f0-9]{8}-[A-Fa-f0-9]{4}-[A-Fa-f0-9]{4}-[A-Fa-f0-9]{4}-[A-Fa-f0-9]{12}| \{[A-Fa-f0-9]{8}-[A-Fa-f0-9]{4}-[A-Fa-f0-9]{4}-[A-Fa-f0-9]{4}-[A-Fa-f0-9]{12}\})$"
+  foov15:
     type: String[]
-  foo16:
+    validate:
+      isRegex: "lol"
+  foov16:
     type: Int[]
-  foo17:
+    validate:
+      isIntegrationType: "^\d+$"
+  foov17:
     type: Boolean[]
-  foo18:
+    validate:
+      isRegex: "^(true|false)$"
+  foov18:
     type: Url[]
-  foo19:
+    validate:
+      isRegex: "([^\?]+)(\?.*)?"
+  foov19:
     type: Email[]
-  foo20:
+    validate:
+      isRegex: "(\S+@\S+\.\S+)?"
+  foov20:
     type: IP[]
-  foo21:
+    validate:
+      isRegex: "^(([0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5])\.){3}([0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5])$"
+  foov21:
     type: IPv4[]
-  foo22:
+    validate:
+      isRegex: "^(([0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5])\.){3}([0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5])$"
+  foov22:
     type: IPv6[]
-  foo23:
+    validate:
+      isRegex: "(([0-9a-fA-F]{1,4}:){7,7}[0-9a-fA-F]{1,4}|([0-9a-fA-F]{1,4}:){1,7}:|([0-9a-fA-F]{1,4}:){1,6}:[0-9a-fA-F]{1,4}|([0-9a-fA-F]{1,4}:){1,5}(:[0-9a-fA-F]{1,4}){1,2}|([0-9a-fA-F]{1,4}:){1,4}(:[0-9a-fA-F]{1,4}){1,3}|([0-9a-fA-F]{1,4}:){1,3}(:[0-9a-fA-F]{1,4}){1,4}|([0-9a-fA-F]{1,4}:){1,2}(:[0-9a-fA-F]{1,4}){1,5}|[0-9a-fA-F]{1,4}:((:[0-9a-fA-F]{1,4}){1,6})|:((:[0-9a-fA-F]{1,4}){1,7}|:)|fe80:(:[0-9a-fA-F]{0,4}){0,4}%[0-9a-zA-Z]{1,}|::(ffff(:0{1,4}){0,1}:){0,1}((25[0-5]|(2[0-4]|1{0,1}[0-9]){0,1}[0-9])\.){3,3}(25[0-5]|(2[0-4]|1{0,1}[0-9]){0,1}[0-9])|([0-9a-fA-F]{1,4}:){1,4}:((25[0-5]|(2[0-4]|1{0,1}[0-9]){0,1}[0-9])\.){3,3}(25[0-5]|(2[0-4]|1{0,1}[0-9]){0,1}[0-9]))"
+  foov23:
     type: Date[]
-  foo24:
+    validate:
+      isAfter: "Wed Nov 02 2011 00:00:00 GMT+1000"
+  foov24:
     type: Alpha[]
-  foo25:
+  foov25:
     type: Alphanumeric[]
-  foo26:
+  foov26:
     type: Numeric[]
-  foo27:
+    validate:
+      max: 5
+  foov27:
     type: Float[]
-  foo28:
+  foov28:
     type: UUID[]
-  foo29:
-    type: foo
-  foo30:
-    type: foo[]
-
+ foov1.1:
+    type: String
+    validate:
+      contains: "lol"
+ foov1.2:
+    type: String
+    validate:
+      equals: "lol"
+ foov1.3:
+    type: String
+    validate:
+      isLowercase: "lol"
+ foov1.4:
+    type: String
+    validate:
+      isUppercase: "LOL"
+ foov1.5:
+    type: String
+    validate:
+      len: 5
+ foov1.5:
+    type: String
+    validate:
+      notContains: "lol"
+ foov1.5:
+    type: String
+    validate:
+      notEmpty: "notEmpty"
+ foov1.6:
+    type: String
+    validate:
+      notIn: "notEmpty"
+ foov1.7:
+    type: String
+    validate:
+      notRegex: "lol"
+  foov1.8:
+    type: Date
+    validate:
+      isBefore: "Wed Nov 02 2011 00:00:00 GMT+1000"
+  foov1.9:
+    type: Int
+    validate:
+      max: 5
+  foov2.0:
+    type: Int
+    validate:
+      min: 5   
+foov2.2:
+    type: string[]
+    validate:
+      contains: "lol"
+ foov2.2:
+    type: string[]
+    validate:
+      equals: "lol"
+ foov2.3:
+    type: string[]
+    validate:
+      isLowercase: "lol"
+ foov2.4:
+    type: string[]
+    validate:
+      isUppercase: "LOL"
+ foov2.5:
+    type: string[]
+    validate:
+      len: 5
+ foov2.5:
+    type: string[]
+    validate:
+      notContains: "lol"
+ foov2.5:
+    type: string[]
+    validate:
+      notEmpty: "notEmpty"
+ foov2.6:
+    type: string[]
+    validate:
+      notIn: "notEmpty"
+ foov2.7:
+    type: string[]
+    validate:
+      notRegex: "lol"
 userDefinedDataType:
   - type: foo
     configuration:
