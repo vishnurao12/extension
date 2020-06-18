@@ -124,7 +124,7 @@ configuration:
     type: string[]
     validate:
       contains: "lol"
-  foov212:
+  foov222:
     type: string[]
     validate:
       equals: "lol"
