@@ -120,39 +120,39 @@ configuration:
     validate:
       min: 5   
   foov212:
-    type: string[]
+    type: String[]
     validate:
       contains: "lol"
   foov222:
-    type: string[]
+    type: String[]
     validate:
       equals: "lol"
   foov213:
-    type: string[]
+    type: String[]
     validate:
       isLowercase: "lol"
   foov214:
-    type: string[]
+    type: String[]
     validate:
       isUppercase: "LOL"
   foov215:
-    type: string[]
+    type: String[]
     validate:
       len: 5
   foov21e:
-    type: string[]
+    type: String[]
     validate:
       notContains: "lol"
   foov21r:
-    type: string[]
+    type: String[]
     validate:
       notEmpty: "notEmpty"
   foov216:
-    type: string[]
+    type: String[]
     validate:
       notIn: "notEmpty"
   foov217:
-    type: string[]
+    type: String[]
     validate:
       notRegex: "lol"
 userDefinedDataType:
