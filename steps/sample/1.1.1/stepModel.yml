@@ -42,8 +42,6 @@ configuration:
       isRegex: "lol"
   foov16:
     type: Int[]
-    validate:
-      isIntegrationType: "^\d+$"
   foov17:
     type: Boolean[]
   foov18:
