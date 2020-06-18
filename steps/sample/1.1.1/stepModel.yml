@@ -115,11 +115,11 @@ configuration:
  foov1.3:
     type: String
     validate:
-      isLowercase: "lol"
+      isLowercase: true
  foov1.4:
     type: String
     validate:
-      isUppercase: "LOL"
+      isUppercase: true
  foov1.5:
     type: String
     validate:
@@ -131,7 +131,7 @@ configuration:
  foov1.5:
     type: String
     validate:
-      notEmpty: "notEmpty"
+      notEmpty: true
  foov1.6:
     type: String
     validate:
