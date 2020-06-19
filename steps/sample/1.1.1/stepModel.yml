@@ -165,166 +165,166 @@ configuration:
 userDefinedDataType:
   - type: foo
     configuration:
-    foov1:
+    fooxv1:
       type: String
       validate:
         isRegex: "lol"
-    foov2:
+    fooxv2:
       type: Int
       validate:
         max: 5
-    foov3:
+    fooxv3:
       type: Boolean
 
-    foov4:
+    fooxv4:
       type: Url
-    foov5:
+    fooxv5:
       type: Email
 
-    foov6:
+    fooxv6:
       type: IP
-    foov7:
+    fooxv7:
       type: IPv4
-    foov8:
+    fooxv8:
       type: IPv6
-    foov9:
+    fooxv9:
       type: Date
       validate:
         isAfter: "Wed Nov 02 2011 00:00:00 GMT+1000"
-    foov10:
+    fooxv10:
       type: Alpha
-    foov11:
+    fooxv11:
       type: Alphanumeric
-    foov12:
+    fooxv12:
       type: Numeric
-    foov13:
+    fooxv13:
       type: Float
-    foov14:
+    fooxv14:
       type: UUID
-    foov15:
+    fooxv15:
       type: String[]
       validate:
         isRegex: "lol"
-    foov16:
+    fooxv16:
       type: Int[]
       validate:
         max: 5
-    foov16a:
+    fooxv16a:
       type: Int[]
       validate:
         min: 5
-    foov17:
+    fooxv17:
       type: Boolean[]
-    foov18:
+    fooxv18:
       type: Url[]
-    foov19:
+    fooxv19:
       type: Email[]
 
-    foov20:
+    fooxv20:
       type: IP[]
   
-    foov21:
+    fooxv21:
       type: IPv4[]
     
-    foov22:
+    fooxv22:
       type: IPv6[]
       
-    foov23:
+    fooxv23:
       type: Date[]
       validate:
         isAfter: "Wed Nov 02 2011 00:00:00 GMT+1000"
-    foov24:
+    fooxv24:
       type: Alpha[]
-    foov25:
+    fooxv25:
       type: Alphanumeric[]
-    foov26:
+    fooxv26:
       type: Numeric[]
-    foov27:
+    fooxv27:
       type: Float[]
-    foov28:
+    fooxv28:
       type: UUID[]
-    foov111:
+    fooxv111:
       type: String
       validate:
         contains: "lol"
-    foov112:
+    fooxv112:
       type: String
       validate:
         equals: "lol"
-    foov113:
+    fooxv113:
       type: String
       validate:
         isLowercase: true
-    foov114:
+    fooxv114:
       type: String
       validate:
         isUppercase: true
-    foov115:
+    fooxv115:
       type: String
       validate:
         len: [5,4]
-    foov116:
+    fooxv116:
       type: String
       validate:
         notContains: "lol"
-    foov117:
+    fooxv117:
       type: String
       validate:
         notEmpty: true
-    foov118:
+    fooxv118:
       type: String
       validate:
         notIn: ["log","print"]
-    foov119:
+    fooxv119:
       type: String
       validate:
         notRegex: "lol"
-    foov120:
+    fooxv120:
       type: Date
       validate:
         isBefore: "Wed Nov 02 2011 00:00:00 GMT+1000"
-    foov121:
+    fooxv121:
       type: Int
       validate:
         max: 5
 
-    foov210:
+    fooxv210:
       type: Int
       validate:
         min: 5   
-    foov212:
+    fooxv212:
       type: String[]
       validate:
         contains: "lol"
-    foov222:
+    fooxv222:
       type: String[]
       validate:
         equals: "lol"
-    foov213:
+    fooxv213:
       type: String[]
       validate:
         isLowercase: true
-    foov214:
+    fooxv214:
       type: String[]
       validate:
         isUppercase: true
-    foov215:
+    fooxv215:
       type: String[]
       validate:
         len: [5,4]
-    foov21e:
+    fooxv21e:
       type: String[]
       validate:
         notContains: "lol"
-    foov21r:
+    fooxv21r:
       type: String[]
       validate:
         notEmpty: true
-    foov216:
+    fooxv216:
       type: String[]
       validate:
         notIn: ["log","print"]
-    foov217:
+    fooxv217:
       type: String[]
       validate:
         notRegex: "lol"
