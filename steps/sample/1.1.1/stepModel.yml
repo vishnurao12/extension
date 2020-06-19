@@ -115,10 +115,7 @@ configuration:
     type: Int
     validate:
       max: 5
-  foov12r:
-    type: Integration
-    validate:
-      isIntegrationType: true
+
   foov210:
     type: Int
     validate:
