@@ -165,166 +165,166 @@ configuration:
 userDefinedDataType:
   - type: foo
     configuration:
-    fooxv1:
-      type: String
-      validate:
-        isRegex: "lol"
-    fooxv2:
-      type: Int
-      validate:
-        max: 5
-    fooxv3:
-      type: Boolean
+      fooxv1:
+        type: String
+        validate:
+          isRegex: "lol"
+      fooxv2:
+        type: Int
+        validate:
+          max: 5
+      fooxv3:
+        type: Boolean
 
-    fooxv4:
-      type: Url
-    fooxv5:
-      type: Email
+      fooxv4:
+        type: Url
+      fooxv5:
+        type: Email
 
-    fooxv6:
-      type: IP
-    fooxv7:
-      type: IPv4
-    fooxv8:
-      type: IPv6
-    fooxv9:
-      type: Date
-      validate:
-        isAfter: "Wed Nov 02 2011 00:00:00 GMT+1000"
-    fooxv10:
-      type: Alpha
-    fooxv11:
-      type: Alphanumeric
-    fooxv12:
-      type: Numeric
-    fooxv13:
-      type: Float
-    fooxv14:
-      type: UUID
-    fooxv15:
-      type: String[]
-      validate:
-        isRegex: "lol"
-    fooxv16:
-      type: Int[]
-      validate:
-        max: 5
-    fooxv16a:
-      type: Int[]
-      validate:
-        min: 5
-    fooxv17:
-      type: Boolean[]
-    fooxv18:
-      type: Url[]
-    fooxv19:
-      type: Email[]
+      fooxv6:
+        type: IP
+      fooxv7:
+        type: IPv4
+      fooxv8:
+        type: IPv6
+      fooxv9:
+        type: Date
+        validate:
+          isAfter: "Wed Nov 02 2011 00:00:00 GMT+1000"
+      fooxv10:
+        type: Alpha
+      fooxv11:
+        type: Alphanumeric
+      fooxv12:
+        type: Numeric
+      fooxv13:
+        type: Float
+      fooxv14:
+        type: UUID
+      fooxv15:
+        type: String[]
+        validate:
+          isRegex: "lol"
+      fooxv16:
+        type: Int[]
+        validate:
+          max: 5
+      fooxv16a:
+        type: Int[]
+        validate:
+          min: 5
+      fooxv17:
+        type: Boolean[]
+      fooxv18:
+        type: Url[]
+      fooxv19:
+        type: Email[]
 
-    fooxv20:
-      type: IP[]
-  
-    fooxv21:
-      type: IPv4[]
+      fooxv20:
+        type: IP[]
     
-    fooxv22:
-      type: IPv6[]
+      fooxv21:
+        type: IPv4[]
       
-    fooxv23:
-      type: Date[]
-      validate:
-        isAfter: "Wed Nov 02 2011 00:00:00 GMT+1000"
-    fooxv24:
-      type: Alpha[]
-    fooxv25:
-      type: Alphanumeric[]
-    fooxv26:
-      type: Numeric[]
-    fooxv27:
-      type: Float[]
-    fooxv28:
-      type: UUID[]
-    fooxv111:
-      type: String
-      validate:
-        contains: "lol"
-    fooxv112:
-      type: String
-      validate:
-        equals: "lol"
-    fooxv113:
-      type: String
-      validate:
-        isLowercase: true
-    fooxv114:
-      type: String
-      validate:
-        isUppercase: true
-    fooxv115:
-      type: String
-      validate:
-        len: [5,4]
-    fooxv116:
-      type: String
-      validate:
-        notContains: "lol"
-    fooxv117:
-      type: String
-      validate:
-        notEmpty: true
-    fooxv118:
-      type: String
-      validate:
-        notIn: ["log","print"]
-    fooxv119:
-      type: String
-      validate:
-        notRegex: "lol"
-    fooxv120:
-      type: Date
-      validate:
-        isBefore: "Wed Nov 02 2011 00:00:00 GMT+1000"
-    fooxv121:
-      type: Int
-      validate:
-        max: 5
+      fooxv22:
+        type: IPv6[]
+        
+      fooxv23:
+        type: Date[]
+        validate:
+          isAfter: "Wed Nov 02 2011 00:00:00 GMT+1000"
+      fooxv24:
+        type: Alpha[]
+      fooxv25:
+        type: Alphanumeric[]
+      fooxv26:
+        type: Numeric[]
+      fooxv27:
+        type: Float[]
+      fooxv28:
+        type: UUID[]
+      fooxv111:
+        type: String
+        validate:
+          contains: "lol"
+      fooxv112:
+        type: String
+        validate:
+          equals: "lol"
+      fooxv113:
+        type: String
+        validate:
+          isLowercase: true
+      fooxv114:
+        type: String
+        validate:
+          isUppercase: true
+      fooxv115:
+        type: String
+        validate:
+          len: [5,4]
+      fooxv116:
+        type: String
+        validate:
+          notContains: "lol"
+      fooxv117:
+        type: String
+        validate:
+          notEmpty: true
+      fooxv118:
+        type: String
+        validate:
+          notIn: ["log","print"]
+      fooxv119:
+        type: String
+        validate:
+          notRegex: "lol"
+      fooxv120:
+        type: Date
+        validate:
+          isBefore: "Wed Nov 02 2011 00:00:00 GMT+1000"
+      fooxv121:
+        type: Int
+        validate:
+          max: 5
 
-    fooxv210:
-      type: Int
-      validate:
-        min: 5   
-    fooxv212:
-      type: String[]
-      validate:
-        contains: "lol"
-    fooxv222:
-      type: String[]
-      validate:
-        equals: "lol"
-    fooxv213:
-      type: String[]
-      validate:
-        isLowercase: true
-    fooxv214:
-      type: String[]
-      validate:
-        isUppercase: true
-    fooxv215:
-      type: String[]
-      validate:
-        len: [5,4]
-    fooxv21e:
-      type: String[]
-      validate:
-        notContains: "lol"
-    fooxv21r:
-      type: String[]
-      validate:
-        notEmpty: true
-    fooxv216:
-      type: String[]
-      validate:
-        notIn: ["log","print"]
-    fooxv217:
-      type: String[]
-      validate:
-        notRegex: "lol"
+      fooxv210:
+        type: Int
+        validate:
+          min: 5   
+      fooxv212:
+        type: String[]
+        validate:
+          contains: "lol"
+      fooxv222:
+        type: String[]
+        validate:
+          equals: "lol"
+      fooxv213:
+        type: String[]
+        validate:
+          isLowercase: true
+      fooxv214:
+        type: String[]
+        validate:
+          isUppercase: true
+      fooxv215:
+        type: String[]
+        validate:
+          len: [5,4]
+      fooxv21e:
+        type: String[]
+        validate:
+          notContains: "lol"
+      fooxv21r:
+        type: String[]
+        validate:
+          notEmpty: true
+      fooxv216:
+        type: String[]
+        validate:
+          notIn: ["log","print"]
+      fooxv217:
+        type: String[]
+        validate:
+          notRegex: "lol"
