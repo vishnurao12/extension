@@ -152,11 +152,9 @@ configuration:
     validate:
       notIn: ["log","print"]
   foo50:
-    type: String[]
-    validate:
-      notRegex: "lol"
+    type: uddt
 userDefinedDataType:
-  - type: foo
+  - type: uddt
     configuration:
       foo1:
         type: String
