@@ -41,6 +41,10 @@ configuration:
       isRegex: "lol"
   foov16:
     type: Int[]
+  foov16a:
+    type: Int[]
+    validate:
+      min: 5
   foov17:
     type: Boolean[]
   foov18:
