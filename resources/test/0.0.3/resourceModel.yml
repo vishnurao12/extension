@@ -49,10 +49,10 @@ configuration:
     type: Integration
     validate:
       isIntegrationType: Google Cloud
-  Generic:
+  Generic Integration:
     type: Integration
     validate:
-      isIntegrationType: Generic
+      isIntegrationType: Generic Integration
   GitHub:
     type: Integration
     validate:
@@ -69,10 +69,10 @@ configuration:
     type: Integration
     validate:
       isIntegrationType: Incoming Webhook
-  Jenkins:
+  Jenkins Server:
     type: Integration
     validate:
-      isIntegrationType: Jenkins
+      isIntegrationType: Jenkins Server
   Jira:
     type: Integration
     validate:
