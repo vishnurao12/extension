@@ -16,3 +16,222 @@ configuration:
   koo:
     type: String
     immutable: true
+  foov1:
+    type: String
+    validate:
+      isRegex: "lol"
+  foov2:
+    type: Int
+    validate:
+      max: 5
+  foov3:
+    type: Boolean
+
+  foov4:
+    type: Url
+  foov5:
+    type: Email
+
+  foov6:
+    type: IP
+  foov7:
+    type: IPv4
+  foov8:
+    type: IPv6
+  foov9:
+    type: Date
+    validate:
+      isAfter: "Wed Nov 02 2011 00:00:00 GMT+1000"
+  foov10:
+    type: Alpha
+  foov11:
+    type: Alphanumeric
+  foov12:
+    type: Numeric
+  foov13:
+    type: Float
+  foov14:
+    type: UUID
+  foov15:
+    type: String[]
+    validate:
+      isRegex: "lol"
+  foov16:
+    type: Int[]
+  foov17:
+    type: Boolean[]
+  foov18:
+    type: Url[]
+  foov19:
+    type: Email[]
+
+  foov20:
+    type: IP[]
+ 
+  foov21:
+    type: IPv4[]
+   
+  foov22:
+    type: IPv6[]
+    
+  foov23:
+    type: Date[]
+    validate:
+      isAfter: "Wed Nov 02 2011 00:00:00 GMT+1000"
+  foov24:
+    type: Alpha[]
+  foov25:
+    type: Alphanumeric[]
+  foov26:
+    type: Numeric[]
+  foov27:
+    type: Float[]
+  foov28:
+    type: UUID[]
+  foov111:
+    type: String
+    validate:
+      contains: "lol"
+  foov112:
+    type: String
+    validate:
+      equals: "lol"
+  foov113:
+    type: String
+    validate:
+      isLowercase: true
+  foov114:
+    type: String
+    validate:
+      isUppercase: true
+  foov115:
+    type: String
+    validate:
+      len: [5,4]
+  foov116:
+    type: String
+    validate:
+      notContains: "lol"
+  foov117:
+    type: String
+    validate:
+      notEmpty: true
+  foov118:
+    type: String
+    validate:
+      notIn: ["log","print"]
+  foov119:
+    type: String
+    validate:
+      notRegex: "lol"
+  foov120:
+    type: Date
+    validate:
+      isBefore: "Wed Nov 02 2011 00:00:00 GMT+1000"
+  foov121:
+    type: Int
+    validate:
+      max: 5
+  foov12r:
+    type: Integration
+    validate:
+      isIntegrationType: true
+  foov210:
+    type: Int
+    validate:
+      min: 5   
+  foov212:
+    type: String[]
+    validate:
+      contains: "lol"
+  foov222:
+    type: String[]
+    validate:
+      equals: "lol"
+  foov213:
+    type: String[]
+    validate:
+      isLowercase: true
+  foov214:
+    type: String[]
+    validate:
+      isUppercase: true
+  foov215:
+    type: String[]
+    validate:
+      len: [5,4]
+  foov21e:
+    type: String[]
+    validate:
+      notContains: "lol"
+  foov21r:
+    type: String[]
+    validate:
+      notEmpty: true
+  foov216:
+    type: String[]
+    validate:
+      notIn: ["log","print"]
+  foov217:
+    type: String[]
+    validate:
+      notRegex: "lol"
+userDefinedDataType:
+  - type: foo
+    configuration:
+      foo1:
+        type: String
+      foo2:
+        type: Int
+      foo3:
+        type: Boolean
+      foo4:
+        type: Url
+      foo5:
+        type: Email
+      foo6:
+        type: IP
+      foo7:
+        type: IPv4
+      foo8:
+        type: IPv6
+      foo9:
+        type: Date
+      foo10:
+        type: Alpha
+      foo11:
+        type: Alphanumeric
+      foo12:
+        type: Numeric
+      foo13:
+        type: Float
+      foo14:
+        type: UUID
+      foo15:
+        type: String[]
+      foo16:
+        type: Int[]
+      foo17:
+        type: Boolean[]
+      foo18:
+        type: Url[]
+      foo19:
+        type: Email[]
+      foo20:
+        type: IP[]
+      foo21:
+        type: IPv4[]
+      foo22:
+        type: IPv6[]
+      foo23:
+        type: Date[]
+      foo24:
+        type: Alpha[]
+      foo25:
+        type: Alphanumeric[]
+      foo26:
+        type: Numeric[]
+      foo27:
+        type: Float[]
+      foo28:
+        type: UUID[]
