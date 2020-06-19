@@ -9,6 +9,102 @@ configuration:
     type: Integration
     validate:
       isIntegrationType: Slack
+  AWS:
+    type: Integration
+    validate:
+      isIntegrationType: AWS
+  Artifactory:
+    type: Integration
+    validate:
+      isIntegrationType: Artifactory
+  Azure Keys:
+    type: Integration
+    validate:
+      isIntegrationType: Azure Keys
+  Bitbucket:
+    type: Integration
+    validate:
+      isIntegrationType: Bitbucket
+  Bitbucket Server:
+    type: Integration
+    validate:
+      isIntegrationType: Bitbucket Server
+  Distribution:
+    type: Integration
+    validate:
+      isIntegrationType: Distribution
+  Digital Ocean:
+    type: Integration
+    validate:
+      isIntegrationType: Digital Ocean
+  Docker Registry:
+    type: Integration
+    validate:
+      isIntegrationType: Docker Registry
+  File Server:
+    type: Integration
+    validate:
+      isIntegrationType: File Server
+  Google Cloud:
+    type: Integration
+    validate:
+      isIntegrationType: Google Cloud
+  Generic:
+    type: Integration
+    validate:
+      isIntegrationType: Generic
+  GitHub:
+    type: Integration
+    validate:
+      isIntegrationType: GitHub
+  Github Enterprise:
+    type: Integration
+    validate:
+      isIntegrationType: Github Enterprise
+  GitLab:
+    type: Integration
+    validate:
+      isIntegrationType: GitLab
+  Incoming Webhook:
+    type: Integration
+    validate:
+      isIntegrationType: Incoming Webhook
+  Jenkins:
+    type: Integration
+    validate:
+      isIntegrationType: Jenkins
+  Jira:
+    type: Integration
+    validate:
+      isIntegrationType: Jira
+  Kubernetes:
+    type: Integration
+    validate:
+      isIntegrationType: Kubernetes
+  NewRelic:
+    type: Integration
+    validate:
+      isIntegrationType: NewRelic
+  Outgoing Webhook:
+    type: Integration
+    validate:
+      isIntegrationType: Outgoing Webhook
+  PEM Key:
+    type: Integration
+    validate:
+      isIntegrationType: PEM Key
+  SMTP Credentials:
+    type: Integration
+    validate:
+      isIntegrationType: SMTP Credentials
+  SSH Key:
+    type: Integration
+    validate:
+      isIntegrationType: SSH Key
+  Airbrake:
+    type: Integration
+    validate:
+      isIntegrationType: Airbrake
   foo:
     type: Int
   bar:
