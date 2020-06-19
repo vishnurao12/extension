@@ -158,159 +158,159 @@ configuration:
 userDefinedDataType:
   - type: foo
     configuration:
-      foo51:
+      foo1:
         type: String
         validate:
           isRegex: "lol"
-      foo52:
+      foo2:
         type: Int
         validate:
           max: 5
-      foo53:
+      foo3:
         type: Boolean
-      foo54:
+      foo4:
         type: Url
-      foo55:
+      foo5:
         type: Email
-      foo56:
+      foo6:
         type: IP
-      foo57:
+      foo7:
         type: IPv4
-      foo58:
+      foo8:
         type: IPv6
-      foo59:
+      foo9:
         type: Date
         validate:
           isAfter: "Wed Nov 02 2011 00:00:00 GMT+1000"
-      foo60:
+      foo10:
         type: Alpha
-      foo62:
+      foo11:
         type: Alphanumeric
-      foo63:
+      foo12:
         type: Numeric
-      foo64:
+      foo13:
         type: Float
-      foo65:
+      foo14:
         type: UUID
-      foo66:
+      foo15:
         type: String[]
         validate:
           isRegex: "lol"
-      foo67:
-        type: Int[]
-        validate:
-          max: 5
-      foo68:
-        type: Int[]
-        validate:
-          min: 5
-      foo69:
-        type: Boolean[]
-      foo70:
-        type: Url[]
-      foo71:
-        type: Email[]
-      foo72:
-        type: IP[]
-      foo73:
-        type: IPv4[]
-      foo74:
-        type: IPv6[]
-      foo75:
-        type: Date[]
-        validate:
-          isAfter: "Wed Nov 02 2011 00:00:00 GMT+1000"
-      foo76:
-        type: Alpha[]
-      foo77:
-        type: Alphanumeric[]
-      foo78:
-        type: Numeric[]
-      foo79:
-        type: Float[]
-      foo80:
-        type: UUID[]
-      foo81:
+      foo30:
         type: String
         validate:
           contains: "lol"
-      foo82:
+      foo31:
         type: String
         validate:
           equals: "lol"
-      foo83:
+      foo32:
         type: String
         validate:
           isLowercase: true
-      foo84:
+      foo33:
         type: String
         validate:
           isUppercase: true
-      foo85:
+      foo34:
         type: String
         validate:
           len: [5,4]
-      foo86:
+      foo35:
         type: String
         validate:
           notContains: "lol"
-      foo87:
+      foo36:
         type: String
         validate:
           notEmpty: true
-      foo89:
+      foo37:
         type: String
         validate:
           notIn: ["log","print"]
-      foo90:
+      foo38:
         type: String
         validate:
           notRegex: "lol"
-      foo91:
+      foo39:
         type: Date
         validate:
           isBefore: "Wed Nov 02 2011 00:00:00 GMT+1000"
-      foo92:
+      foo40:
         type: Int
         validate:
           max: 5
-      foo93:
+      foo41:
         type: Int
         validate:
           min: 5   
-      foo94:
+      foo16:
+        type: Int[]
+        validate:
+          max: 5
+      foo17:
+        type: Int[]
+        validate:
+          min: 5
+      foo18:
+        type: Boolean[]
+      foo19:
+        type: Url[]
+      foo20:
+        type: Email[]
+      foo21:
+        type: IP[]
+      foo22:
+        type: IPv4[]
+      foo23:
+        type: IPv6[]
+      foo24:
+        type: Date[]
+        validate:
+          isAfter: "Wed Nov 02 2011 00:00:00 GMT+1000"
+      foo25:
+        type: Alpha[]
+      foo26:
+        type: Alphanumeric[]
+      foo27:
+        type: Numeric[]
+      foo28:
+        type: Float[]
+      foo29:
+        type: UUID[]
+      foo42:
         type: String[]
         validate:
           contains: "lol"
-      foo95:
+      foo43:
         type: String[]
         validate:
           equals: "lol"
-      foo96:
+      foo44:
         type: String[]
         validate:
           isLowercase: true
-      foo100:
+      foo45:
         type: String[]
         validate:
           isUppercase: true
-      foo101:
+      foo46:
         type: String[]
         validate:
           len: [5,4]
-      foo102:
+      foo47:
         type: String[]
         validate:
           notContains: "lol"
-      foo103:
+      foo48:
         type: String[]
         validate:
           notEmpty: true
-      foo105:
+      foo49:
         type: String[]
         validate:
           notIn: ["log","print"]
-      foo106:
+      foo50:
         type: String[]
         validate:
           notRegex: "lol"
