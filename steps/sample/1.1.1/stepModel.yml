@@ -56,7 +56,7 @@ configuration:
   foo34:
     type: String
     validate:
-      len: [5,4]
+      len: [3,4]
   foo35:
     type: String
     validate:
@@ -138,7 +138,7 @@ configuration:
   foo46:
     type: String[]
     validate:
-      len: [5,4]
+      len: [3,4]
   foo47:
     type: String[]
     validate:
@@ -215,7 +215,7 @@ userDefinedDataType:
       foo34:
         type: String
         validate:
-          len: [5,4]
+          len: [3,4]
       foo35:
         type: String
         validate:
@@ -297,7 +297,7 @@ userDefinedDataType:
       foo46:
         type: String[]
         validate:
-          len: [5,4]
+          len: [3,4]
       foo47:
         type: String[]
         validate:
