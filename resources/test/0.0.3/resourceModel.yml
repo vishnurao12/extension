@@ -105,186 +105,171 @@ configuration:
     type: Integration
     validate:
       isIntegrationType: Airbrake
-  foo:
-    type: Int
-  bar:
-    type: Boolean
-  koo:
-    type: String
-    immutable: true
-  foov1:
+  foo1:
     type: String
     validate:
       isRegex: "lol"
-  foov2:
+  foo2:
     type: Int
     validate:
       max: 5
-  foov3:
+  foo3:
     type: Boolean
-
-  foov4:
+  foo4:
     type: Url
-  foov5:
+  foo5:
     type: Email
-
-  foov6:
+  foo6:
     type: IP
-  foov7:
+  foo7:
     type: IPv4
-  foov8:
+  foo8:
     type: IPv6
-  foov9:
+  foo9:
     type: Date
     validate:
       isAfter: "Wed Nov 02 2011 00:00:00 GMT+1000"
-  foov10:
+  foo10:
     type: Alpha
-  foov11:
+  foo11:
     type: Alphanumeric
-  foov12:
+  foo12:
     type: Numeric
-  foov13:
+  foo13:
     type: Float
-  foov14:
+  foo14:
     type: UUID
-  foov15:
+  foo15:
     type: String[]
     validate:
       isRegex: "lol"
-  foov16:
-    type: Int[]
-    validate:
-      max: 5
-  foov16a:
-    type: Int[]
-    validate:
-      min: 5
-  foov17:
-    type: Boolean[]
-  foov18:
-    type: Url[]
-  foov19:
-    type: Email[]
-
-  foov20:
-    type: IP[]
- 
-  foov21:
-    type: IPv4[]
-   
-  foov22:
-    type: IPv6[]
-    
-  foov23:
-    type: Date[]
-    validate:
-      isAfter: "Wed Nov 02 2011 00:00:00 GMT+1000"
-  foov24:
-    type: Alpha[]
-  foov25:
-    type: Alphanumeric[]
-  foov26:
-    type: Numeric[]
-  foov27:
-    type: Float[]
-  foov28:
-    type: UUID[]
-  foov111:
+  foo30:
     type: String
     validate:
       contains: "lol"
-  foov112:
+  foo31:
     type: String
     validate:
       equals: "lol"
-  foov113:
+  foo32:
     type: String
     validate:
       isLowercase: true
-  foov114:
+  foo33:
     type: String
     validate:
       isUppercase: true
-  foov115:
+  foo34:
     type: String
     validate:
-      len: [5,4]
-  foov116:
+      len: [3,4]
+  foo35:
     type: String
     validate:
       notContains: "lol"
-  foov117:
+  foo36:
     type: String
     validate:
       notEmpty: true
-  foov118:
+  foo37:
     type: String
     validate:
       notIn: ["log","print"]
-  foov119:
+  foo38:
     type: String
     validate:
       notRegex: "lol"
-  foov120:
+  foo39:
     type: Date
     validate:
       isBefore: "Wed Nov 02 2011 00:00:00 GMT+1000"
-  foov121:
+  foo40:
     type: Int
     validate:
       max: 5
-  foov12r:
-    type: Integration
-    validate:
-      isIntegrationType: Airbrake
-  foov210:
+  foo41:
     type: Int
     validate:
       min: 5   
-  foov212:
+  foo16:
+    type: Int[]
+    validate:
+      max: 5
+  foo17:
+    type: Int[]
+    validate:
+      min: 5
+  foo18:
+    type: Boolean[]
+  foo19:
+    type: Url[]
+  foo20:
+    type: Email[]
+  foo21:
+    type: IP[]
+  foo22:
+    type: IPv4[]
+  foo23:
+    type: IPv6[]
+  foo24:
+    type: Date[]
+    validate:
+      isAfter: "Wed Nov 02 2011 00:00:00 GMT+1000"
+  foo25:
+    type: Alpha[]
+  foo26:
+    type: Alphanumeric[]
+  foo27:
+    type: Numeric[]
+  foo28:
+    type: Float[]
+  foo29:
+    type: UUID[]
+  foo42:
     type: String[]
     validate:
       contains: "lol"
-  foov222:
+  foo43:
     type: String[]
     validate:
       equals: "lol"
-  foov213:
+  foo44:
     type: String[]
     validate:
       isLowercase: true
-  foov214:
+  foo45:
     type: String[]
     validate:
       isUppercase: true
-  foov215:
+  foo46:
     type: String[]
     validate:
-      len: [5,4]
-  foov21e:
+      len: [3,4]
+  foo47:
     type: String[]
     validate:
       notContains: "lol"
-  foov21r:
+  foo48:
     type: String[]
     validate:
       notEmpty: true
-  foov216:
+  foo49:
     type: String[]
     validate:
       notIn: ["log","print"]
-  foov217:
-    type: String[]
-    validate:
-      notRegex: "lol"
+  foo50:
+    type: uddt
 userDefinedDataType:
-  - type: foo
+  - type: uddt
     configuration:
       foo1:
         type: String
+        validate:
+          isRegex: "lol"
       foo2:
         type: Int
+        validate:
+          max: 5
       foo3:
         type: Boolean
       foo4:
@@ -299,6 +284,8 @@ userDefinedDataType:
         type: IPv6
       foo9:
         type: Date
+        validate:
+          isAfter: "Wed Nov 02 2011 00:00:00 GMT+1000"
       foo10:
         type: Alpha
       foo11:
@@ -311,29 +298,123 @@ userDefinedDataType:
         type: UUID
       foo15:
         type: String[]
+        validate:
+          isRegex: "lol"
+      foo30:
+        type: String
+        validate:
+          contains: "lol"
+      foo31:
+        type: String
+        validate:
+          equals: "lol"
+      foo32:
+        type: String
+        validate:
+          isLowercase: true
+      foo33:
+        type: String
+        validate:
+          isUppercase: true
+      foo34:
+        type: String
+        validate:
+          len: [3,4]
+      foo35:
+        type: String
+        validate:
+          notContains: "lol"
+      foo36:
+        type: String
+        validate:
+          notEmpty: true
+      foo37:
+        type: String
+        validate:
+          notIn: ["log","print"]
+      foo38:
+        type: String
+        validate:
+          notRegex: "lol"
+      foo39:
+        type: Date
+        validate:
+          isBefore: "Wed Nov 02 2011 00:00:00 GMT+1000"
+      foo40:
+        type: Int
+        validate:
+          max: 5
+      foo41:
+        type: Int
+        validate:
+          min: 5   
       foo16:
         type: Int[]
+        validate:
+          max: 5
       foo17:
-        type: Boolean[]
+        type: Int[]
+        validate:
+          min: 5
       foo18:
-        type: Url[]
+        type: Boolean[]
       foo19:
-        type: Email[]
+        type: Url[]
       foo20:
-        type: IP[]
+        type: Email[]
       foo21:
-        type: IPv4[]
+        type: IP[]
       foo22:
-        type: IPv6[]
+        type: IPv4[]
       foo23:
-        type: Date[]
+        type: IPv6[]
       foo24:
-        type: Alpha[]
+        type: Date[]
+        validate:
+          isAfter: "Wed Nov 02 2011 00:00:00 GMT+1000"
       foo25:
-        type: Alphanumeric[]
+        type: Alpha[]
       foo26:
-        type: Numeric[]
+        type: Alphanumeric[]
       foo27:
-        type: Float[]
+        type: Numeric[]
       foo28:
+        type: Float[]
+      foo29:
         type: UUID[]
+      foo42:
+        type: String[]
+        validate:
+          contains: "lol"
+      foo43:
+        type: String[]
+        validate:
+          equals: "lol"
+      foo44:
+        type: String[]
+        validate:
+          isLowercase: true
+      foo45:
+        type: String[]
+        validate:
+          isUppercase: true
+      foo46:
+        type: String[]
+        validate:
+          len: [3,4]
+      foo47:
+        type: String[]
+        validate:
+          notContains: "lol"
+      foo48:
+        type: String[]
+        validate:
+          notEmpty: true
+      foo49:
+        type: String[]
+        validate:
+          notIn: ["log","print"]
+      foo50:
+        type: String[]
+        validate:
+          notRegex: "lol"
