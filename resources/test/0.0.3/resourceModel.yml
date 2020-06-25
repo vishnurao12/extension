@@ -113,6 +113,7 @@ configuration:
     type: Int
     validate:
       max: 5
+    immutable: true
   foo3:
     type: Boolean
   foo4:
