@@ -317,207 +317,207 @@ userDefinedDataType:
     configuration:
       foo1:
         type: String
-        immutable: true
+        
         validate:
           isRegex: "lol"
       foo2:
         type: Int
-        immutable: true
+        
         validate:
           max: 5
       foo3:
         type: Boolean
-        immutable: true
+        
       foo4:
         type: Url
-        immutable: true
+        
       foo5:
         type: Email
-        immutable: true
+        
       foo6:
         type: IP
-        immutable: true
+        
       foo7:
         type: IPv4
-        immutable: true
+        
       foo8:
         type: IPv6
-        immutable: true
+        
       foo9:
         type: Date
-        immutable: true
+        
         validate:
           isAfter: "Wed Nov 02 2011 00:00:00 GMT+1000"
       foo10:
         type: Alpha
-        immutable: true
+        
       foo11:
         type: Alphanumeric
-        immutable: true
+        
       foo12:
         type: Numeric
-        immutable: true
+        
       foo13:
         type: Float
-        immutable: true
+        
       foo14:
         type: UUID
-        immutable: true
+        
       foo15:
         type: String[]
-        immutable: true
+        
         validate:
           isRegex: "lol"
       foo30:
         type: String
-        immutable: true
+        
         validate:
           contains: "lol"
       foo31:
         type: String
-        immutable: true
+        
         validate:
           equals: "lol"
       foo32:
         type: String
-        immutable: true
+        
         validate:
           isLowercase: true
       foo33:
         type: String
-        immutable: true
+        
         validate:
           isUppercase: true
       foo34:
         type: String
-        immutable: true
+        
         validate:
           len: [3,4]
       foo35:
         type: String
-        immutable: true
+        
         validate:
           notContains: "lol"
       foo36:
         type: String
-        immutable: true
+        
         validate:
           notEmpty: true
       foo37:
         type: String
-        immutable: true
+        
         validate:
           notIn: ["log","print"]
       foo38:
         type: String
-        immutable: true
+        
         validate:
           notRegex: "lol"
       foo39:
         type: Date
-        immutable: true
+        
         validate:
           isBefore: "Wed Nov 02 2011 00:00:00 GMT+1000"
       foo40:
         type: Int
-        immutable: true
+        
         validate:
           max: 5
       foo41:
         type: Int
-        immutable: true
+        
         validate:
           min: 5   
       foo16:
         type: Int[]
-        immutable: true
+        
         validate:
           max: 5
       foo17:
         type: Int[]
-        immutable: true
+        
         validate:
           min: 5
       foo18:
         type: Boolean[]
-        immutable: true
+        
       foo19:
         type: Url[]
-        immutable: true
+        
       foo20:
         type: Email[]
-        immutable: true
+        
       foo21:
         type: IP[]
-        immutable: true
+        
       foo22:
         type: IPv4[]
-        immutable: true
+        
       foo23:
         type: IPv6[]
-        immutable: true
+        
       foo24:
         type: Date[]
-        immutable: true
+        
         validate:
           isAfter: "Wed Nov 02 2011 00:00:00 GMT+1000"
       foo25:
         type: Alpha[]
-        immutable: true
+        
       foo26:
         type: Alphanumeric[]
-        immutable: true
+        
       foo27:
         type: Numeric[]
-        immutable: true
+        
       foo28:
         type: Float[]
-        immutable: true
+        
       foo29:
         type: UUID[]
-        immutable: true
+        
       foo42:
         type: String[]
-        immutable: true
+        
         validate:
           contains: "lol"
       foo43:
         type: String[]
-        immutable: true
+        
         validate:
           equals: "lol"
       foo44:
         type: String[]
-        immutable: true
+        
         validate:
           isLowercase: true
       foo45:
         type: String[]
-        immutable: true
+        
         validate:
           isUppercase: true
       foo46:
         type: String[]
-        immutable: true
+        
         validate:
           len: [3,4]
       foo47:
         type: String[]
-        immutable: true
+        
         validate:
           notContains: "lol"
       foo48:
         type: String[]
-        immutable: true
+        
         validate:
           notEmpty: true
       foo49:
         type: String[]
-        immutable: true
+        
         validate:
           notIn: ["log","print"]
       foo50:
         type: String[]
-        immutable: true
+        
         validate:
           notRegex: "lol"
