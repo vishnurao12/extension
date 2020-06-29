@@ -1,4 +1,6 @@
 configuration:
+  foo:
+    type: String
   foo1:
     type: String
     validate:
