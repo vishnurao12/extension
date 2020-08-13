@@ -4,11 +4,11 @@ configuration:
   foo1:
     type: String
     validate:
-      isRegex: 122
+      isRegex: "lol"
   foo2:
     type: Int
     validate:
-      max: "a"
+      max: 5
   foo3:
     type: Boolean
   foo4:
@@ -42,43 +42,43 @@ configuration:
   foo30:
     type: String
     validate:
-      contains: 1
+      contains: "lol"
   foo31:
     type: String
     validate:
-      equals: @
+      equals: "lol"
   foo32:
     type: String
     validate:
-      isLowercase: aa
+      isLowercase: true
   foo33:
     type: String
     validate:
-      isUppercase: aa
+      isUppercase: true
   foo34:
     type: String
     validate:
-      len: adf
+      len: [3,4]
   foo35:
     type: String
     validate:
-      notContains: 12
+      notContains: "lol"
   foo36:
     type: String
     validate:
-      notEmpty: t12
+      notEmpty: true
   foo37:
     type: String
     validate:
-      notIn: asdf
+      notIn: ["log","print"]
   foo38:
     type: String
     validate:
-      notRegex: sadf
+      notRegex: "lol"
   foo39:
     type: Date
     validate:
-      isBefore: asfd
+      isBefore: "Wed Nov 02 2011 00:00:00 GMT+1000"
   foo40:
     type: Int
     validate:
