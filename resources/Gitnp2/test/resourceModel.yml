@@ -105,10 +105,8 @@ configuration:
     type: Integration
     validate:
       isIntegrationType: Airbrake
-  foo1a:
-    type: String
-    validate:
-      isRegex: "lol"      
+  foo:
+    type: String    
   foo1:
     type: String
     validate:
