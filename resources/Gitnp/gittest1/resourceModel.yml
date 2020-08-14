@@ -1,3 +1,4 @@
+test: test
 configuration:
   bdood1:
     type: String
