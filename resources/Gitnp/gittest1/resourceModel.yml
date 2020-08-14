@@ -312,7 +312,7 @@ configuration:
     type: uddt
 userDefinedDataType:
   - type: uddt
-
+    configuration:
       foo1:
         type: String
         
