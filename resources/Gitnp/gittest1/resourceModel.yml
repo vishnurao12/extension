@@ -1,16 +1,16 @@
 configuration:
   bdood:
-    type: String1
+    type: String
     validate:
       isRegex: "^[a-zA-Z_][a-zA-Z0-9_]*$"
   test:
     type: String
   slack:
-    type: Integration1
+    type: Integration
     validate:
       isIntegrationType: Slack
   AWS:
-    type: Integration1
+    type: Integration
     validate:
       isIntegrationType: AWS
   Artifactory:
@@ -118,7 +118,7 @@ configuration:
       max: 5
     immutable: true
   foo3:
-    type: Boolean
+    type: 
     immutable: true
   foo4:
     type: Url
@@ -206,17 +206,17 @@ configuration:
     validate:
       notRegex: "lol"
   foo39:
-    type: Date1
+    type: Date
     immutable: true
     validate:
       isBefore: "Wed Nov 02 2011 00:00:00 GMT+1000"
   foo40:
-    type: Int1
+    type: Int
     immutable: true
     validate:
       max: 5
   foo41:
-    type: Int1
+    type: Int
     immutable: true
     validate:
       min: 5   
@@ -319,27 +319,27 @@ userDefinedDataType:
         validate:
           isRegex: "lol"
       foo2:
-        type: Int1
+        type: Int
         
         validate:
           max: 5
       foo3:
-        type: Boolean1
+        type: Boolean
         
       foo4:
-        type: Url1
+        type: Url
         
       foo5:
-        type: Email1
+        type: Email
         
       foo6:
-        type: IP1
+        type: IP
         
       foo7:
-        type: IPv41
+        type: IPv4
         
       foo8:
-        type: IPv61
+        type: IPv6
         
       foo9:
         type: Date
@@ -347,19 +347,19 @@ userDefinedDataType:
         validate:
           isAfter: "Wed Nov 02 2011 00:00:00 GMT+1000"
       foo10:
-        type: Alpha1
+        type: Alpha
         
       foo11:
-        type: Alphanumeric1
+        type: Alphanumeric
         
       foo12:
-        type: Numeric1
+        type: Numeric
         
       foo13:
-        type: Float1
+        type: Float
         
       foo14:
-        type: UUID1
+        type: UUID
         
       foo15:
         type: String[]
