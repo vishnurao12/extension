@@ -309,7 +309,7 @@ configuration:
     validate:
       notIn: ["log","print"]
   foo50:
-    type: uddt1
+    type: uddt
 userDefinedDataType:
   - type: uddt
 
