@@ -1,4 +1,8 @@
 configuration:
+  bdood1:
+    type: String
+    validate:
+      isRegex: "^[a-zA-Z_][a-zA-Z0-9_]*$"
   bdood:
     type: String
     validate:
