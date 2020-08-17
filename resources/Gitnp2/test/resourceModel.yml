@@ -1,6 +1,6 @@
 configuration:
   bdood:
-    type: String
+    type: String12
     validate:
       isRegex: "^[a-zA-Z_][a-zA-Z0-9_]*$"
   test:
