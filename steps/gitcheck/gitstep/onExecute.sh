@@ -1,9 +1,8 @@
 sample() {
   printenv
   ls
-  cd common
-  chmod +x common.js
-  ./common.js 
+  node common/common.js
+  node work.js
 }
 
 execute_command sample
