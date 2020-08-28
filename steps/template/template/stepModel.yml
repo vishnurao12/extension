@@ -1,10 +1,6 @@
 configuration:
   foo:
     type: String
-  foo1va:
-    type: String
-    validate:
-      isRegex: "lol"
   foo1:
     type: String
     validate:
