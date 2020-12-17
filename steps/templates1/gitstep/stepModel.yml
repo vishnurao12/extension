@@ -1,4 +1,6 @@
 configuration:
+  foo4444:
+    type: String
   foo:
     type: String
   foo1va:
