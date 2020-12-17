@@ -1,5 +1,4 @@
 configuration:
-test
   foo:
     type: String
   foo1:
