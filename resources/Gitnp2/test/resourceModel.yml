@@ -1,5 +1,4 @@
 configuration:
-jai
   bdood:
     type: String
     validate:
